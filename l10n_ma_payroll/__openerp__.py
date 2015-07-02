@@ -20,10 +20,9 @@
 ##############################################################################
 {
     'name': 'Morocco-payroll',
-    'category': 'Localization/Payroll',
-    'author': 'Said Hijaoui (rhfree)',
+    'category': 'human resources',
+    'author': 'Said Hijaoui (rhfree.com)',
     'website': 'http://rhfree.com',
-    "category" : "Localization",
     'version': '1.0Basic',
     'depends': ['hr_payroll'],
     
@@ -34,8 +33,7 @@
     - Configuration of hr_payroll for Moroccan localization
     - Basic configuration for newly installed company'
     - Absence - Advances - CNSS - AMO
-	- Allow to split  Last name and First name in the contract
-	- Pro version  handles all kinds of allowances and bonuses plus seniority and other advantages like CIMR and private health insurance 
+	- Pro version  handles all kinds of allowances and bonuses plus seniority and other advantages like CIMR and private health insurance and more.
     """,
     'active': False,
     'update_xml':['l10n_ma_payroll_view.xml'],
