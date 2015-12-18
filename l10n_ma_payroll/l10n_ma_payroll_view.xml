@@ -74,9 +74,7 @@
                             <newline/>
 							<field name="conv_coll"/>
 							<newline/>
-                          <!--   <field name="t_pat"/>
-							<newline/>
-							<field name="t_sal"/> -->
+                          
 							
                     </group>
                  </xpath>
@@ -90,17 +88,7 @@
             <field name="priority">30</field>
             <field name="inherit_id" ref="hr.view_employee_form"/>
             <field name="arch" type="xml">
-			 <xpath expr="//label[@for='category_ids']" position="before">
-                    <group>
-					        
-                            <field name="first_name"/>
-                            <field name="last_name"/>
-                            <field name="complete_name"/>
-                    </group>
-					</xpath>
-					<xpath expr="//field[@name='name']" position="attributes">
-                    <attribute name="placeholder">Nom Complet sera rempli automatiquement</attribute>
-                </xpath>
+			
 				<notebook>
 				<page string=" Paramètre Paie" groups="base.group_hr_user">
 				
@@ -125,34 +113,9 @@
 			  				
                             </page>
 							</notebook>
-		<!-- 		<field name="active" position="replace">
-				<group col="2" colspan="2" name="right_column">
-				   <separator colspan="2" string="Numéros d'affiliation"/>
-				   
-				   <field name="cin" placeholder="Numéro de la carte nationale"/>
-				   <field name="matricule_cnss" placeholder="10 chiffres"/>
-				   <field name="matricule_cimr" placeholder="10 chiffres"/>
-				    <field name="matricule_mut" placeholder="10 chiffres"/>
-				  </group>
+		
 				
-                    
-					<group col="2" colspan="2" name="right_column">
-                    <separator colspan="2" string="Absence et Heures Sup"/>
-					
-					<field name="abs"/>
-			      	<field name="hs25"/>
-				    <field name="hs50"/>
-					<field name="hs100"/>
-					<field name="av_sal"/>
-					<field name="rem_mut"/>
 			
-			  		</group>							
-				</field> -->
-				
-				<field name="otherid" position="replace">
-			  <field name="num_chezemployeur" string="Matricule"/> 
-				</field>
-				
 			</field>
 		</record>
 		

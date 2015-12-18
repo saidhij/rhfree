@@ -7,15 +7,15 @@
             <field name='model'>hr.employee</field>
             <field name='inherit_id' ref='hr.view_employee_form'/>
             <field name='arch' type='xml'>
-                <xpath expr="//label[@for='category_ids']" position="before">
+                <xpath expr="//label[@for='name']" position="before">
                          <group>
                             <field name="first_name"/>
                             <field name="last_name"/>
-                            <field name="complete_name"/>
+                            <field name="complete_name" invisible="1"/>
                     </group>
 					</xpath>
 					<xpath expr="//field[@name='name']" position="attributes">
-                    <attribute name="placeholder">The name will be automatically filled</attribute>
+                    <attribute name="placeholder">Automatically filled</attribute>
                 </xpath>
          </field>     
 	</record>

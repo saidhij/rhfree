@@ -23,7 +23,7 @@
     'category': 'human resources',
     'author': 'Said Hijaoui (rhfree.com)',
     'website': 'http://rhfree.com',
-    'version': '1.0Basic',
+    'version': '1.1Basic',
     'depends': ['hr_payroll'],
     
 	
@@ -33,7 +33,12 @@
     - Configuration of hr_payroll for Moroccan localization
     - Basic configuration for newly installed company'
     - Absence - Advances - CNSS - AMO
-	- Pro version  handles all kinds of allowances and bonuses plus seniority and other advantages like CIMR and private health insurance and more.
+	- Pro version is complete and  handles all kinds of allowances and Bonuses plus 
+	        - Seniority ( anciennété) and all other advantages:
+        	- CIMR and private health insurance like  AXA 
+			- Nice looking payslip
+			- Legal reports ( etat 9421 ) ...
+    - Important: you need to fill the wage amount for the employee in the contract and  choose moroccan payroll from the structure field.
     """,
     'active': False,
     'update_xml':['l10n_ma_payroll_view.xml'],
