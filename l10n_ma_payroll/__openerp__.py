@@ -30,7 +30,7 @@
     'description': """Moroccan Payroll Rules Basic Version.
 ======================
 
-    - Configuration of hr_payroll for Moroccan localization
+     - Configuration of hr_payroll for Moroccan localization
     - Basic configuration for newly installed company'
     - Absence - Advances - CNSS - AMO
 	- Pro version is complete and  handles all kinds of allowances and Bonuses plus 
