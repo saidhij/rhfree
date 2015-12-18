@@ -19,21 +19,9 @@
             <page string="Primes et autres Avantages" name="information">
                            
                     <group name="primes" string="Primes">
-                                
-			       <!--  <field name="prime_saliss"/>
-                    <field name="prime_vest"/>
-                    <field name="prime_transport"/>
-					<field name="prime_encad"/>
-					<field name="prime_repr"/> -->
+                    
 					</group>
-				<!-- 	<group name="taux" string="Taux Appliqués">
-					<field name="taux_cimr"/>
-					<field name="taux_mut"/>
-					</group> -->
-				<!-- <group name="anc" string="Ancienneté">
-					<field name="start_date"/>
-					<field name="anciennete"/>
-				    </group> -->
+				
 			<group col="2" colspan="2" name="left_column">
                     <separator colspan="2" string="Type de Paie"/>
 			        <field name="schedule_pay"/>
