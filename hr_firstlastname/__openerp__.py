@@ -19,7 +19,7 @@
     'category': 'Human Resources',
     'author': 'Said Hijaoui (rhfree.com)',
     'website': 'http://rhfree.com',
-    'version': '1.0',
+    'version': '1.1',
     'depends': ['hr'],
 	'price': 9,
     'currency': 'EUR',
