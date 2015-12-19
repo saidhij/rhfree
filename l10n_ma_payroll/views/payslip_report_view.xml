@@ -13,7 +13,7 @@
                         <tr>
                             <td><strong>Name</strong></td>
                             <td><span t-field="o.employee_id"/></td>
-                            <td><strong>Designation</strong></td>
+                            <td><strong>Poste</strong></td>
                             <td><span t-field="o.employee_id.job_id"/></td>
                         </tr>
                         <tr>
@@ -27,7 +27,6 @@
                             <td><strong>Email</strong></td>
                             <td><span t-field="o.employee_id.work_email"/></td>
                             <td><strong>Identification No</strong></td>
-                            <td><span t-field="o.employee_id.job_id"/></td>
                         </tr>
                         <tr>
                             <td><strong>Reference</strong></td>
@@ -41,18 +40,7 @@
                             <td><strong>Date To</strong></td>
                             <td><span t-field="o.date_to"/></td>
                         </tr>
-						<tr>
-                            <td><strong>Email</strong></td>
-                            <td><span t-field="o.employee_id.work_email"/></td>
-                            <td><strong>Identification No</strong></td>
-                            <td><span t-field="o.employee_id.job_id"/></td>
-                        </tr>
-                        <tr>
-                            <td><strong>Reference</strong></td>
-                            <td><span t-field="o.number"/></td>
-                            <td><strong>Compte Bancaire</strong></td>
-                            <td><span t-field="o.employee_id.bank_account_id"/></td>
-                        </tr>
+			
                         <tr>
                             <td><strong>N CNSS</strong></td>
                             <td><span t-field="o.employee_id.matricule_cnss"/></td>
