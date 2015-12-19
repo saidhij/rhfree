@@ -1,2 +1,2 @@
 # rhfree
-Human ressources soft
+Human resources soft
