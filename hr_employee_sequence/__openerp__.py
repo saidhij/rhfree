@@ -2,7 +2,7 @@
 ##############################################################################
 #
 #    Odoo, Open Source Management Solution
-#    Copyright (C) 2015 Odoo SA (<http://odoo.com>).
+#    Copyright (C) 2015 rhfree (<http://rhfree.com>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -22,6 +22,7 @@
     'name': 'Employee sequences',
     'category': 'human resources',
     'author': 'Said Hijaoui (rhfree.com)',
+    "license": "AGPL-3",
     'website': 'http://rhfree.com',
     'version': '1.0',
     'depends': ['hr_payroll','hr_contract'],
