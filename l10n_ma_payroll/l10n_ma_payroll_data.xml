@@ -265,7 +265,7 @@
         <field name="sequence">2040</field>
         <field name="condition_select">none</field>
         <field name="amount_select">percentage</field>
-        <field name="amount_percentage">2</field>
+        <field name="amount_percentage">2.26</field>
         <field name="amount_percentage_base">categories.BRUT</field>
         <field name="appears_on_payslip" eval="True"/>
         <field name="register_id" ref="hr_CNSS_register"/>
@@ -279,7 +279,7 @@
         <field name="sequence">2045</field>
         <field name="condition_select">none</field>
         <field name="amount_select">percentage</field>
-        <field name="amount_percentage">2</field>
+        <field name="amount_percentage">2.26</field>
         <field name="amount_percentage_base">categories.BRUT</field>
         <field name="register_id" ref="hr_CNSS_register"/>
 		<field name="appears_on_payslip" eval="False"/>
@@ -293,7 +293,7 @@
         <field name="sequence">2046</field>
         <field name="condition_select">none</field>
         <field name="amount_select">percentage</field>
-        <field name="amount_percentage">1.5</field>
+        <field name="amount_percentage">1.85</field>
         <field name="amount_percentage_base">categories.BRUT</field>
         <field name="register_id" ref="hr_CNSS_register"/>
 		<field name="appears_on_payslip" eval="False"/>
