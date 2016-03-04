@@ -4,7 +4,7 @@
         <report 
             id="action_report_payslip_report_view" 
             model="hr.payslip" 
-            string="Fiche de paie"
+            string="Fiche de paie Maroc"
             report_type="qweb-pdf"
             name="l10n_ma_payroll.payslip_report_view" 
             file="l10n_ma_payroll.payslip_report_view"
