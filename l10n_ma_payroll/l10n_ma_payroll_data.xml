@@ -279,7 +279,7 @@
         <field name="sequence">2045</field>
         <field name="condition_select">none</field>
         <field name="amount_select">percentage</field>
-        <field name="amount_percentage">4.11</field>
+        <field name="amount_percentage">2.26</field>
         <field name="amount_percentage_base">categories.BRUT</field>
         <field name="register_id" ref="hr_CNSS_register"/>
 		<field name="appears_on_payslip" eval="False"/>
