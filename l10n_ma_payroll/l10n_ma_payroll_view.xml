@@ -78,7 +78,7 @@
             <field name="arch" type="xml">
 			
 				<notebook>
-				<page string=" Paramètre Paie" groups="base.group_hr_user">
+				<page string=" Paramètres Paie" groups="base.group_hr_user">
 				
                     <group string="Numéros d'affiliation">
                    <field name="cin"/>
