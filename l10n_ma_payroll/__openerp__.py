@@ -24,7 +24,7 @@
     'author': 'Said Hijaoui (rhfree.com)',
     'website': 'http://rhfree.com',
     "license": "AGPL-3",
-    'version': '1.1Basic',
+    'version': '1.2Basic',
     'depends': ['hr_payroll'],
     
 	
