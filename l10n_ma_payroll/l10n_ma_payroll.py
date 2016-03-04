@@ -31,10 +31,10 @@ class hr_employee(models.Model):
     _name = 'hr.employee'
 	
    
-    cin = fields.Char(string="Numéro CIN", required=True)
-    matricule_cnss = fields.Char(string="Numéro CNSS", required=True)
-    matricule_cimr = fields.Char(string="Numéro CIMR", required=True)
-    matricule_mut = fields.Char(string="Numéro MUTUELLE", required=True)
+    cin = fields.Char(string="Numéro CIN", required=False)
+    matricule_cnss = fields.Char(string="Numéro CNSS", required=False)
+    matricule_cimr = fields.Char(string="Numéro CIMR", required=False)
+    matricule_mut = fields.Char(string="Numéro MUTUELLE", required=False)
     num_chezemployeur = fields.Integer(string="Matricule")
     abs = fields.Integer(string="Absence en heures" ,default=0)
     hs25 = fields.Integer(string="Heures sup à 25" ,default=0)
