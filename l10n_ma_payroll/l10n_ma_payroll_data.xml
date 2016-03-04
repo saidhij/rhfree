@@ -500,7 +500,7 @@ else -0)
 			<field name="name">Avance sur Salaire</field>
 			<field name="sequence">9999913</field>
             <field name="category_id" ref="AVSAL"/>
-			<field name="condition_select">none</field>
+			<field name="condition_select">python</field>
 			<field name="amount_select">code</field>
 			<field name="condition_python">result = employee.av_sal>0</field>
             <field name="amount_python_compute">result = employee.av_sal</field>
