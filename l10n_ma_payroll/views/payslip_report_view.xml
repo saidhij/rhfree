@@ -29,12 +29,7 @@
                             <td><strong>Identification No</strong></td>
                             <td><span t-field="o.employee_id.job_id"/></td>
                         </tr>
-                        <tr>
-                            <td><strong>Reference</strong></td>
-                            <td><span t-field="o.number"/></td>
-                            <td><strong>Bank Account</strong></td>
-                            <td><span t-field="o.employee_id.otherid"/></td>
-                        </tr>
+                     
                         <tr>
                             <td><strong>Date From</strong></td>
                             <td><span t-field="o.date_from"/></td>
@@ -47,12 +42,7 @@
                             <td><strong>Identification No</strong></td>
                             <td><span t-field="o.employee_id.job_id"/></td>
                         </tr>
-                        <tr>
-                            <td><strong>Reference</strong></td>
-                            <td><span t-field="o.number"/></td>
-                            <td><strong>Compte Bancaire</strong></td>
-                            <td><span t-field="o.employee_id.otherid"/></td>
-                        </tr>
+                        
                         <tr>
                             <td><strong>N CNSS</strong></td>
                             <td><span t-field="o.employee_id.matricule_cnss"/></td>
