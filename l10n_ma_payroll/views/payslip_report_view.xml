@@ -100,18 +100,14 @@
                                 <th>Salaire Brut</th>
                                 <th>Total Charges Salariales</th>
                                 <th>Net Imposable</th>
-                                <th>Plafond s.s.</th>
-                                <th></th>
                                 <th>Coût Global Salarié</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td><span t-esc="get_total_by_rule_category(o, 'BRUT')"/></td>
-                                <td><span t-esc="get_total_by_rule_category(o, 'categories.SALC')"/></td>
+                                <td><span t-esc="get_total_by_rule_category(o, 'SALC')"/></td>
                                 <td><span t-esc="get_total_by_rule_category(o, 'C_IMP')"/></td>
-                                <td><span t-esc="o.employee_id.company_id.plafond_secu or ''"/></td>
-                                <td></td>
                                 <td><span t-esc="get_total_by_rule_category(o, 'TOTAL')"/></td>
                             </tr>
                         </tbody>
