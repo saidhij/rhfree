@@ -39,7 +39,7 @@
         	- CIMR and private health insurance like  AXA 
 			- Nice looking payslip
 			- Legal reports ( etat 9421 ) ...
-    - Important: you need to fill the wage amount for the employee in the contract and  choose moroccan payroll from the structure field.
+    - Important: you need to fill the wage amount for the employee in the contract and chose moroccan payroll from the structure field.
     """,
     'data': [
         'data/l10n_ma_hr_payroll_data.xml',
