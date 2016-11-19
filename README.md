@@ -1,2 +1,2 @@
 # rhfree
-Human resources soft
+Human resources addon for Moroccan payroll
