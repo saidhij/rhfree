@@ -1,2 +1,2 @@
 # rhfree
-Human ressources soft
+Moroccan payroll for Odoo V10 - Basic version
