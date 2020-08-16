@@ -2,7 +2,7 @@
 ##############################################################################
 #
 #    
-#    Copyright (C) 2016 rhfree (<http://rhfree.com>).
+#    Copyright (C) 2016 rhfree (<http://paiesof.pro>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -21,8 +21,8 @@
 {
     'name': 'Morocco-payroll',
     'category': 'human resources',
-    'author': 'Said Hijaoui (rhfree.com)',
-    'website': 'http://rhfree.com',
+    'author': 'Said Hijaoui (paisoft.pro)',
+    'website': 'http://paisoft.pro',
     "license": "AGPL-3",
     'version': '1.1Basic',
     'depends': ['hr_payroll'],
@@ -31,14 +31,14 @@
     'description': """Moroccan Payroll Rules Basic Version.
 ======================
 
-     - Configuration of hr_payroll for Moroccan localization
+    - Configuration of hr_payroll for Moroccan localization
     - Basic configuration for newly installed company'
     - Absence - Advances - CNSS - AMO
 	- Pro version is complete and  handles all kinds of allowances and Bonuses plus 
 	        - Seniority ( anciennété) and all other advantages:
-        	- CIMR and private health insurance like  AXA 
+        	- CIMR 
 			- Nice looking payslip
-			- Legal reports ( etat 9421 ) ...
+			- Legal reports ( etat 9421 xml and  cnss) ...
     - Important: you need to fill the wage amount for the employee in the contract and  choose moroccan payroll from the structure field.
     """,
     'active': False,
