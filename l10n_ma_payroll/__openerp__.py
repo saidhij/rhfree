@@ -21,8 +21,8 @@
 {
     'name': 'Morocco-payroll',
     'category': 'human resources',
-    'author': 'Said Hijaoui (paisoft.pro)',
-    'website': 'http://paisoft.pro',
+    'author': 'softfordoc@gmail.com',
+    'website': 'http://paisoft.casa',
     "license": "AGPL-3",
     'version': '1.1Basic',
     'depends': ['hr_payroll'],
