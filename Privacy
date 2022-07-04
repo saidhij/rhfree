@@ -1,7 +1,10 @@
 Damancom/payroll
 
 
-Information we collect:  The information we collect is directly provided by our users when they use the service. This information includes the identifier of the Odoo IAP account making the request. Other data is collected by recording interactions with our services. When you register on our website to use or to subscribe to one of our services or fill in one of our contact forms, you voluntarily give us certain information. This typically includes your name, company name, email address and sometimes your phone number, postal address (when an invoice is required
+Information we collect:  The information we collect is directly provided by our users when they use the service. 
+This information includes the identifier of the Odoo IAP account making the request. 
+Other data is collected by recording interactions with our services. 
+When you register on our website to use or to subscribe to one of our services or fill in one of our contact forms, you voluntarily give us certain information. This typically includes your name, company name, email address and sometimes your phone number, postal address (when an invoice is required
 
 How we use this information:  The contents of the files are stored on the Odoo IAP server for tretament purpose, and our server logs keep a temporary record of the IAP account . All your payroll data will be deleted after the payslips are generated .
 
